@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="imagens/favlogo.ico">
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/materialize.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+  <link rel="stylesheet"  href="css/edicao.css">
+  <link rel="stylesheet"  href="css/animate.css">
+  <link rel="stylesheet"  href="css/hover.css">
+  <link rel="stylesheet"  href="css/bgresto.css">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Strait" rel="stylesheet">
+
+  <!-- <link href="https://fonts.googleapis.com/css?family=Sriracha" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Tenor+Sans" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/java.js"></script>
+
+
+
+
+
+</head>
+<body>
+
+<!-- navbar -->
+ <div>
+    <ul id="dropdown1" class="dropdown-content">
+  
+  <li><a href="droplocalizacao.html">Localização</a></li>
+  <li><a href="dropatividades.html">Atividades de lazer</a></li>
+  <li><a href="dropgastronomia.html">Gastronomia</a></li>
+  <li class="divider  indigo lighten-5"></li>
+  <li><a href="dropmontecarlo.html">+ Monte Carlo</a></li>
+</ul>
+
+<ul id="dropdown2" class="dropdown-content">
+
+  <li><a href="droplocalizacao.html">Localização</a></li>
+  <li><a href="dropatividades.html">Atividades de lazer</a></li>
+  <li><a href="dropgastronomia.html">Gastronomia</a></li>
+  <li class="divider indigo lighten-5"></li>
+  <li><a href="dropmontecarlo.html">+ Monte Carlo</a></li>
+</ul>
+  
+  <nav class="navbar-fixed-top" id="outranav" >
+      
+    <div class="nav-wrapper">
+    <a href="index.html" class="brand-logo show-on-medium-and-down hide-on-med-and-up"> <img src="imagens/logo_atualizado.png" class="" style="width: 65%; height:85%; "></a>
+      <a href="index.html" class="brand-logo hide-on-med-and-down"> <img src="imagens/logo_atualizado.png" class="responsive-img" style="width: 20%; height:40%; "></a>
+
+
+
+      <a href="#" data-activates="mobile-demo" class="button-collapse right"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="paraipaba.html" class="hvr-underline-from-center" id="">Paraipaba-CE <i class="material-icons right
+          ">local_see</i></a></li>
+        <li><a href="pacotes.html" class="hvr-underline-from-center" id="">Pacotes <i class="material-icons right">date_range</i></a></li>
+        <li><a href="imagens.html" class="hvr-underline-from-center" id="">Imagens <i class="material-icons right
+          ">collections</i></a></li>
+        <li><a href="contato.html" class="hvr-underline-from-center" id="">Contato <i class="material-icons right
+          ">border_color</i></a></li>
+        <li><a class="dropdown-button hvr-underline-from-center" href="#!" data-activates="dropdown1">Conheça a pousada<i class="material-icons right">arrow_drop_down</i></a></li>
+         
+
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+
+       <li><a href="paraipaba.html">Paraipaba-CE <i class="material-icons right corico">local_see</i></a></li>
+         <li class="divider" style="background-color:#003171; "></li>
+        <li><a href="pacotes.html">Pacotes <i class="material-icons right corico">date_range</i></a></li>
+         <li class="divider" style="background-color:#003171; "></li>
+         <li><a href="imagens.html">Imagens <i class="material-icons right corico">collections</i></a></li>
+         <li class="divider" style="background-color:#003171; "></li>
+        <li><a href="contato.html">Contato <i class="material-icons right corico">border_color</i></a></li>
+        <li class="divider" style="background-color:#003171; "></li>
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Conheça<br>a Pousada <i class="material-icons right corico ">arrow_drop_down</i></a></li>
+        
+      </ul>
+    </div>
+    
+  </nav>
+  </div>
+ 
+
+
+<!-- navbar -->
+
+
+
+<div class="container-fluid"  style="background-color: transparent; margin-top: 80px; ">
+
+ <div class="row">
+    <div class="col s12 hide-on-med-and-down">
+      <ul class="tabs" style="background-color:#ffb74d;  ">
+        <li class="tab col s2"><a class="active semhiper" href="#1">Faixada</a></li>
+        <li class="tab col s2"><a href="#test2" class="semhiper">Quartos</a></li>
+        <li class="tab col s2"><a href="#test3" class="semhiper" >Áreas</a></li>
+        <li class="tab col s2"><a href="#test4" class="semhiper">Restaurante</a></li>
+        <li class="tab col s2"><a href="#test5" class="semhiper">Praia</a></li>
+        <li class="tab col s2"><a href="#test6" >Piscinas</a></li>
+      </ul>
+    </div>
+
+    <div class="col s12 hide-on-med-and-up show-on-medium-and-down ">
+      <ul class="tabs" style="background-color:#ffb74d;  ">
+        <li class="tab col s2"><a class="active semhipermobile" href="#1.2">Faixada</a></li>
+        <li class="tab col s2"><a href="#2.2" class="semhipermobile">Quartos</a></li>
+        <li class="tab col s2"><a href="#3.2" class="semhipermobile" >Áreas</a></li>
+        
+      </ul>
+    </div>
+    <br><br>
+ <div class="col s12 hide-on-med-and-up show-on-medium-and-down ">
+      <ul class="tabs" style="background-color:#ffb74d;  ">
+       
+        <li class="tab col s2"><a href="#4.2" class="semhipermobile">Restaurante</a></li>
+        <li class="tab col s2"><a href="#5.2" class="semhipermobile">Praia</a></li>
+        <li class="tab col s2"><a href="#6.2" class="semhipermobile">Piscinas</a></li> 
+      </ul>
+    </div>
+              
+
+
+
+
+
+
+<div id="1" class="container hide-on-med-and-down  animated fadeInUp ">
+
+
+
+   <div class="row " style="padding-top:70px">
+
+    <div class="col s12 m6 animated ">
+      <img src="imagens/galeria/faixada/nau_royal-14.jpg" class="materialboxed responsive-img" data-caption="PARTE DA FRENTE DA POUSADA, AO CAIR DA TARDE">
+   </div>
+
+    <div class="col s12 m6">
+      <img src="imagens/galeria/faixada/faixadagale.jpg" class="materialboxed responsive-img" data-caption="PARTE DA TRÁS DA POUSADA">
+   </div>
+  </div>
+<div class="row">
+  
+    <div class="col s6 m3">
+      <img src="imagens/galeria/faixada/nau_royal-22.jpg" class="materialboxed responsive-img" >
+   </div>
+   
+    
+
+    <div class="col s6 m3">
+      <img src="imagens/galeria/faixada/nau-Royal_5.jpg" class="materialboxed responsive-img">
+   </div>
+ 
+    <div class="col s6 m3">
+      
+   </div>
+    <div class="col s6 m3">
+      
+   </div>
+   </div>
+ </div>
+
+<div id="1.2" class="container hide-on-med-and-up show-on-medium-and-down ">
+
+
+
+   <div class="row" style="padding-top:70px">
+
+    <div class="col s12 m6">
+      <img src="imagens/galeria/faixada/nau_royal-14.jpg" class="materialboxed responsive-img" data-caption="PARTE DA FRENTE DA POUSADA, AO CAIR DA TARDE">
+   </div>
+
+    <div class="col s12 m6">
+      <img src="imagens/galeria/faixada/faixadagale.jpg" class="materialboxed responsive-img" data-caption="PARTE DA TRÁS DA POUSADA">
+   </div>
+  </div>
+<div class="row">
+  
+    <div class="col s6 m3">
+      <img src="imagens/galeria/faixada/nau_royal-22.jpg" class="materialboxed responsive-img" >
+   </div>
+   
+    
+
+    <div class="col s6 m3">
+      <img src="imagens/galeria/faixada/nau-Royal_5.jpg" class="materialboxed responsive-img">
+   </div>
+ 
+    <div class="col s6 m3">
+      
+   </div>
+    <div class="col s6 m3">
+      
+   </div>
+   </div>
+ </div>
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+<div id="test2" class="container hide-on-med-and-down animated fadeInUp">
+      
+ <div class="row" style="padding-top:70px">
+
+    <div class="col s12 m6">
+      <img src="imagens/galeria/quartos/sauna.jpg" class="materialboxed responsive-img" data-caption="SAUNA EXCLUSIVA DO PACOTE MÁSTER">
+   </div>
+
+    <div class="col s12 m6">
+      <img src="imagens/galeria/quartos/aaron-huber-401151.jpg" class="materialboxed responsive-img" data-caption="BANHEIRO DA SUÍTE MÁSTER">
+   </div>
+  </div>
+<div class="row">
+  
+    <div class="col s6 m3">
+      <img src="imagens/galeria/quartos/nik-lanus-41808.jpg" class="materialboxed responsive-img" >
+   </div>
+   
+    
+
+    <div class="col s6 m3">
+      <img src="imagens/galeria/quartos/toa-heftiba-205003.jpg" class="materialboxed responsive-img">
+   </div>
+ 
+    <div class="col s6 m3">
+      <img src="imagens/galeria/quartos/edicao1.jpg" class="materialboxed responsive-img">
+   </div>
+    <div class="col s6 m3">
+      <img src="imagens/galeria/quartos/jilbert-ebrahimi-434201.jpg" class="materialboxed responsive-img">
+   </div>
+   </div>
+
+   <div class="row">
+  
+    <div class="col s6 m3">
+      <img src="imagens/galeria/quartos/rhema-kallianpur-275251.jpg" class="materialboxed responsive-img" >
+   </div>
+   
+    
+
+    <div class="col s6 m3">
+      <img src="imagens/galeria/quartos/freestocks-org-76658.jpg" class="materialboxed responsive-img">
+   </div>
+ 
+    <div class="col s6 m3">
+      <img src="imagens/galeria/quartos/edicao2.jpg" class="materialboxed responsive-img">
+   </div>
+    <div class="col s6 m3">
+      <img src="imagens/galeria/quartos/edicao3.jpg" class="materialboxed responsive-img">
+   </div>
+   </div>
+
+
+
+
+
+</div>
+
+
+
+<div id="2.2" class="container hide-on-med-and-up show-on-medium-and-down">
+      
+ <div class="row" style="padding-top:70px">
+
+    <div class="col s12 m6">
+      <img src="imagens/galeria/quartos/sauna.jpg" class="materialboxed responsive-img" data-caption="SAUNA EXCLUSIVA DO PACOTE MÁSTER">
+   </div>
+
+    <div class="col s12 m6">
+      <img src="imagens/galeria/quartos/aaron-huber-401151.jpg" class="materialboxed responsive-img" data-caption="BANHEIRO DA SUÍTE MÁSTER">
+   </div>
+  </div>
+<div class="row">
+  
+    <div class="col s6 m3">
+      <img src="imagens/galeria/quartos/nik-lanus-41808.jpg" class="materialboxed responsive-img" >
+   </div>
+   
+    
+
+    <div class="col s6 m3">
+      <img src="imagens/galeria/quartos/toa-heftiba-205003.jpg" class="materialboxed responsive-img">
+   </div>
+ 
+    <div class="col s6 m3">
+      <img src="imagens/galeria/quartos/edicao1.jpg" class="materialboxed responsive-img">
+   </div>
+    <div class="col s6 m3">
+      <img src="imagens/galeria/quartos/jilbert-ebrahimi-434201.jpg" class="materialboxed responsive-img">
+   </div>
+   </div>
+
+   <div class="row">
+  
+    <div class="col s6 m3">
+      <img src="imagens/galeria/quartos/rhema-kallianpur-275251.jpg" class="materialboxed responsive-img" >
+   </div>
+   
+    
+
+    <div class="col s6 m3">
+      <img src="imagens/galeria/quartos/freestocks-org-76658.jpg" class="materialboxed responsive-img">
+   </div>
+ 
+    <div class="col s6 m3">
+      <img src="imagens/galeria/quartos/edicao2.jpg" class="materialboxed responsive-img">
+   </div>
+    <div class="col s6 m3">
+      <img src="imagens/galeria/quartos/edicao3.jpg" class="materialboxed responsive-img">
+   </div>
+   </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <div id="test3" class="container hide-on-med-and-down animated fadeInUp">
+
+      <div class="row" style="padding-top:70px">
+
+    <div class="col s12 m6">
+      <img src="imagens/galeria/areas/cusimprensaarquivos_arquivo_13.jpg" class="materialboxed responsive-img" data-caption="TIROLESA EXCLUSIVA DA POUSADA, PRÓXIMA À LAGOA DAS ALMÉCEGAS">
+   </div>
+
+    <div class="col s12 m6">
+      <img src="imagens/galeria/areas/20160319_154158.jpg" class="materialboxed responsive-img" data-caption="ATIVIDADE DE CAIAQUE NA LAGOA DAS ALMÉCEGAS">
+   </div>
+  </div>
+<div class="row">
+  
+    <div class="col s6 m3">
+      <img src="imagens/galeria/areas/Trilha-monitorada-no-parque-iStock.jpg" class="materialboxed responsive-img" >
+   </div>
+   
+    
+
+    <div class="col s6 m3">
+      <img src="imagens/galeria/areas/DSC_38951.jpg" class="materialboxed responsive-img">
+   </div>
+ 
+    <div class="col s6 m3">
+      <img src="imagens/galeria/areas/trilha_shutterstock_31535413p.jpg" class="materialboxed responsive-img">
+   </div>
+    <div class="col s6 m3">
+      <img src="imagens/galeria/areas/xcx.jpg" class="materialboxed responsive-img">
+   </div>
+   </div>
+ </div>
+
+
+ <div id="3.2" class="container hide-on-med-and-up show-on-medium-and-down">
+
+      <div class="row" style="padding-top:70px">
+
+    <div class="col s12 m6">
+      <img src="imagens/galeria/areas/cusimprensaarquivos_arquivo_13.jpg" class="materialboxed responsive-img" data-caption="TIROLESA EXCLUSIVA DA POUSADA, PRÓXIMA À LAGOA DAS ALMÉCEGAS">
+   </div>
+
+    <div class="col s12 m6">
+      <img src="imagens/galeria/areas/20160319_154158.jpg" class="materialboxed responsive-img" data-caption="ATIVIDADE DE CAIAQUE NA LAGOA DAS ALMÉCEGAS">
+   </div>
+  </div>
+<div class="row">
+  
+    <div class="col s6 m3">
+      <img src="imagens/galeria/areas/Trilha-monitorada-no-parque-iStock.jpg" class="materialboxed responsive-img" >
+   </div>
+   
+    
+
+    <div class="col s6 m3">
+      <img src="imagens/galeria/areas/DSC_38951.jpg" class="materialboxed responsive-img">
+   </div>
+ 
+    <div class="col s6 m3">
+      <img src="imagens/galeria/areas/trilha_shutterstock_31535413p.jpg" class="materialboxed responsive-img">
+   </div>
+    <div class="col s6 m3">
+      <img src="imagens/galeria/areas/xcx.jpg" class="materialboxed responsive-img">
+   </div>
+   </div>
+ </div>
+    
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    <div id="test4" class="container hide-on-med-and-down animated fadeInUp">
+
+      <div class="row" style="padding-top:70px">
+
+    <div class="col s12 m6">
+      <img src="imagens/galeria/cozinha/michael-browning-14090.jpg" class="materialboxed responsive-img" data-caption="O TRABALHO E A DEDICAÇÃO EM NOSSAS COZINHAS">
+   </div>
+
+    <div class="col s12 m6">
+      <img src="imagens/galeria/cozinha/jay-wennington-2065 (1).jpg" class="materialboxed responsive-img" data-caption="GASTRONOMIA DO MAIS ALTO NÍVEL">
+   </div>
+  </div>
+<div class="row">
+  
+    <div class="col s6 m3">
+      <img src="imagens/galeria/cozinha/dan-gold-105699.jpg" class="materialboxed responsive-img" >
+   </div>
+   
+    
+
+    <div class="col s6 m3">
+      <img src="imagens/galeria/cozinha/quentin-dr-178096.jpg" class="materialboxed responsive-img">
+   </div>
+ 
+    <div class="col s6 m3">
+      <img src="imagens/galeria/cozinha/roman-kraft-156096.jpg" class="materialboxed responsive-img">
+   </div>
+    <div class="col s6 m3">
+      <img src="imagens/galeria/cozinha/gabriel-gurrola-57461.jpg" class="materialboxed responsive-img">
+   </div>
+   </div>
+ </div>
+
+
+ <div id="4.2" class="container hide-on-med-and-up show-on-medium-and-down ">
+
+      <div class="row" style="padding-top:70px">
+
+    <div class="col s12 m6">
+      <img src="imagens/galeria/cozinha/michael-browning-14090.jpg" class="materialboxed responsive-img" data-caption="O TRABALHO E A DEDICAÇÃO EM NOSSAS COZINHAS">
+   </div>
+
+    <div class="col s12 m6">
+      <img src="imagens/galeria/cozinha/jay-wennington-2065 (1).jpg" class="materialboxed responsive-img" data-caption="GASTRONOMIA DO MAIS ALTO NÍVEL">
+   </div>
+  </div>
+<div class="row">
+  
+    <div class="col s6 m3">
+      <img src="imagens/galeria/cozinha/dan-gold-105699.jpg" class="materialboxed responsive-img" >
+   </div>
+   
+    
+
+    <div class="col s6 m3">
+      <img src="imagens/galeria/cozinha/quentin-dr-178096.jpg" class="materialboxed responsive-img">
+   </div>
+ 
+    <div class="col s6 m3">
+      <img src="imagens/galeria/cozinha/roman-kraft-156096.jpg" class="materialboxed responsive-img">
+   </div>
+    <div class="col s6 m3">
+      <img src="imagens/galeria/cozinha/gabriel-gurrola-57461.jpg" class="materialboxed responsive-img">
+   </div>
+   </div>
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div id="test5" class="container hide-on-med-and-down animated fadeInUp">
+
+      <div class="row" style="padding-top:70px">
+
+    <div class="col s12 m6">
+      <img src="imagens/galeria/praia/chor-hung-tsang-19848.jpg" class="materialboxed responsive-img" data-caption="PRAIA DO PEDREGULHO, NA ÁREA DA POUSADA">
+   </div>
+
+    <div class="col s12 m6">
+      <img src="imagens/galeria/praia/yiorgos-theo-2478.jpg" class="materialboxed responsive-img" data-caption="VEJA DE PERTO AS LINDAS PRAIAS DO NORDESTE">
+   </div>
+  </div>
+<div class="row">
+  
+    <div class="col s6 m3">
+      <img src="imagens/galeria/praia/lagoinha.jpg" class="materialboxed responsive-img" >
+   </div>
+   
+    
+
+    <div class="col s6 m3">
+      <img src="imagens/galeria/praia/ethan-robertson-150601.jpg" class="materialboxed responsive-img">
+   </div>
+ 
+    <div class="col s6 m3">
+      <img src="imagens/galeria/praia/cosmic-timetraveler-22433.jpg" class="materialboxed responsive-img">
+   </div>
+    <div class="col s6 m3">
+      <img src="imagens/galeria/praia/johnny-chau-155980.jpg" class="materialboxed responsive-img">
+   </div>
+   </div>
+ </div>
+  
+
+
+  <div id="5.2" class="container hide-on-med-and-up show-on-medium-and-down">
+
+      <div class="row" style="padding-top:70px">
+
+    <div class="col s12 m6">
+      <img src="imagens/galeria/praia/chor-hung-tsang-19848.jpg" class="materialboxed responsive-img" data-caption="PRAIA DO PEDREGULHO, NA ÁREA DA POUSADA">
+   </div>
+
+    <div class="col s12 m6">
+      <img src="imagens/galeria/praia/yiorgos-theo-2478.jpg" class="materialboxed responsive-img" data-caption="VEJA DE PERTO AS LINDAS PRAIAS DO NORDESTE">
+   </div>
+  </div>
+<div class="row">
+  
+    <div class="col s6 m3">
+      <img src="imagens/galeria/praia/lagoinha.jpg" class="materialboxed responsive-img" >
+   </div>
+   
+    
+
+    <div class="col s6 m3">
+      <img src="imagens/galeria/praia/ethan-robertson-150601.jpg" class="materialboxed responsive-img">
+   </div>
+ 
+    <div class="col s6 m3">
+      <img src="imagens/galeria/praia/cosmic-timetraveler-22433.jpg" class="materialboxed responsive-img">
+   </div>
+    <div class="col s6 m3">
+      <img src="imagens/galeria/praia/johnny-chau-155980.jpg" class="materialboxed responsive-img">
+   </div>
+   </div>
+ </div>
+  
+
+
+
+
+
+
+
+
+<div id="test6" class="container hide-on-med-and-down animated fadeInUp">
+
+      <div class="row" style="padding-top:70px">
+
+    <div class="col s12 m6">
+      <img src="imagens/galeria/piscina/oshomah-abubakar-185964.jpg" class="materialboxed responsive-img" data-caption="FRESCOR E CONFORTO NUM SÓ LUGAR">
+   </div>
+
+    <div class="col s12 m6">
+      <img src="imagens/galeria/piscina/chrissie-kremer-397623.jpg" class="materialboxed responsive-img" data-caption="AS PISCINAS FAZEM PARTE DE NOSSAS TERAPIAS">
+   </div>
+  </div>
+<div class="row">
+  
+    <div class="col s6 m3">
+      <img src="imagens/galeria/piscina/claude-piche-205364.jpg" class="materialboxed responsive-img" >
+   </div>
+   
+    
+
+    <div class="col s6 m3">
+      <img src="imagens/galeria/piscina/Pools_Boys_Little_girls_490623.jpg" class="materialboxed responsive-img">
+   </div>
+ 
+    <div class="col s6 m3">
+      <img src="imagens/galeria/prai/cosmic-timetraveler-22433.jpg" class="materialboxed responsive-img">
+   </div>
+    <div class="col s6 m3">
+      <img src="imagens/galeria/prai/johnny-chau-155980.jpg" class="materialboxed responsive-img">
+   </div>
+   </div>
+ </div>
+
+
+
+ <div id="6.2" class="container hide-on-med-and-up show-on-medium-and-down">
+
+      <div class="row" style="padding-top:70px">
+
+    <div class="col s12 m6">
+      <img src="imagens/galeria/piscina/oshomah-abubakar-185964.jpg" class="materialboxed responsive-img" data-caption="FRESCOR E CONFORTO NUM SÓ LUGAR">
+   </div>
+
+    <div class="col s12 m6">
+      <img src="imagens/galeria/piscina/chrissie-kremer-397623.jpg" class="materialboxed responsive-img" data-caption="AS PISCINAS FAZEM PARTE DE NOSSAS TERAPIAS">
+   </div>
+  </div>
+<div class="row">
+  
+    <div class="col s6 m3">
+      <img src="imagens/galeria/piscina/claude-piche-205364.jpg" class="materialboxed responsive-img" >
+   </div>
+   
+    
+
+    <div class="col s6 m3">
+      <img src="imagens/galeria/piscina/Pools_Boys_Little_girls_490623.jpg" class="materialboxed responsive-img">
+   </div>
+ 
+    <div class="col s6 m3">
+      <img src="imagens/galeria/prai/cosmic-timetraveler-22433.jpg" class="materialboxed responsive-img">
+   </div>
+    <div class="col s6 m3">
+      <img src="imagens/galeria/prai/johnny-chau-155980.jpg" class="materialboxed responsive-img">
+   </div>
+   </div>
+ </div>
+  
+
+
+
+
+
+
+  </div>
+
+</div>
+
+
+
+<footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+              <a href="#!" class="brand-logo"> <img src="imagens/logo_atualizado.png" class="responsive-img" style="width: 20%; height:40%; "></a>
+                <p class="sloganfooter" >Paraipaba como você nunca viu antes!</p>
+                <a class="waves-effect waves-light btn-large" id="btnfooter" href="reservar.html">Reservar</a>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                
+                <ul>
+                  
+                 
+                  <li><a  href="#!" style="text-decoration: none;">R. Estrela do Mar-Nº 25  <i class="material-icons left corico small hide-on-med-and-down" style="padding-right: 1px;">room</i> </a></li>
+                  <li> <i class="material-icons left corico small hide-on-med-and-down" style="padding-right: 1px;">call</i><a  href="#!" style="text-decoration: none;">(85) 4403-8993   </a></li>
+                  <li class="hide-on-med-and-down"> <i class="material-icons left corico small" style="padding-right: 1px;">email</i><a  href="#!" style="text-decoration: none;">MC_Paraipaba@outlook.com  </a></li>
+                  <li class="hide-on-med-and-up show-on-medium-and-down"><a  href="#!" style="text-decoration: none; font-size:22px !important; ">MC_Paraipaba@outlook.com  </a></li>
+               
+
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container" >
+                
+  <ul class="lado">
+
+    <li><a href="https://www.facebook.com/Pousada-Monte-Carlo-141603819824078/" target="_blank"><img src="imagens/icons/facebook.png" class="hvr-grow icone responsive-img "></a></li>
+    <li><a href="https://www.instagram.com/pousadamontecarlo/" target="_blank"><img src="imagens/icons/instagram-social-outlined-logo.png" class="hvr-grow icone responsive-img"></a></li>
+    <li><a href="https://twitter.com/PousadaMonte" target="_blank"><img src="imagens/icons/twitter.png" class="hvr-grow icone responsive-img"></a></li>
+    <li><a href="https://plus.google.com/u/0/101629703450129806822" target="_blank"><img src="imagens/icons/google-plus-logo.png" class="hvr-grow icone responsive-img"></a></li>
+  </ul>
+
+              </div>
+          
+            <a class="grey-text text-lighten-4 right" href="https://www.facebook.com/VR-Consultoria-Inform%C3%A1tica-2106990969523672/?modal=admin_todo_tour" target="_blank"> <img src="imagens/icons/logovr.png" class="icone responsive-img"></a>
+         
+        </div>
+      </div>
+        </footer>
+
+
+ 
+
+</body>
+</html>

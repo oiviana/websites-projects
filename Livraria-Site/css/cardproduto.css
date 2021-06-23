@@ -1,0 +1,28 @@
+.cardtrio{
+
+    width:100%;
+    background-color: #fcefde;
+
+}
+
+.cardtrio .card-title {
+    font-size: 200%;
+}
+
+.populares{
+    width: 100%;
+    background-color: #332d1e;
+    color: whitesmoke;
+}
+
+.populares .card-title {
+    font-size: 150%;
+    text-align: center;
+}
+.populares .card-text {
+    font-size: 100%;
+    text-indent: 0%;
+}
+.populares img{
+    height: 205px;
+}

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+  <meta charset="utf-8">
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="imagens/favlogo.ico">
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/materialize.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+  <link rel="stylesheet"  href="css/edicao.css">
+  <link rel="stylesheet"  href="css/animate.css">
+  <link rel="stylesheet"  href="css/hover.css">
+  <link rel="stylesheet"  href="css/bgresto.css">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Sriracha" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Tenor+Sans" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/java.js"></script>
+    <script src="js/funcoes.js"></script>
+
+
+<script>
+  
+
+$(document).ready(function(){
+
+
+$('#cadastro').click(function(){
+
+    // conecta ao servidor
+  var xmlhttp = new XMLHttpRequest();
+ 
+  /* colocar na url os valores que quer passar para o servidor.
+     seu arquivo PHP deverá capturar os dados usando $_GET[]; */
+  var url = "http://localhost/site_materialize-laranja/core/insertdados.php?nomecliente=" + $('#nomecliente').val() + "&idemail=" + $('#idemail').val() + "&idpacote=" + $('#idpacote').val() + "&idtelefone=" + $('#idtelefone').val() + "&identrada=" + $('#identrada').val() + "&idsaida=" + $('#idsaida').val(); 
+  
+  xmlhttp.open("GET", url, true);
+  xmlhttp.send();
+ 
+
+     $('#nomecliente').val("");
+        $('#idemail').val("");
+        $('#idpacote').val("");
+        $('#idtelefone').val("");
+        $('#identrada').val("");
+        $('#idsaida').val("");
+
+
+  });
+
+
+
+});
+
+
+</script>
+
+
+</head>
+<body>
+
+<!-- navbar -->
+ <div>
+    <ul id="dropdown1" class="dropdown-content">
+  <li><a href="droplocalizacao.html">Localização</a></li>
+  <li><a href="dropatividades.html">Atividades de lazer</a></li>
+  <li><a href="dropgastronomia.html">Gastronomia</a></li>
+  <li class="divider  indigo lighten-5"></li>
+  <li><a href="dropmontecarlo.html">+ Monte Carlo</a></li>
+</ul>
+
+<ul id="dropdown2" class="dropdown-content">
+ 
+  <li><a href="droplocalizacao.html">Localização</a></li>
+  <li><a href="dropatividades.html">Atividades de lazer</a></li>
+  <li><a href="dropgastronomia.html">Gastronomia</a></li>
+  <li class="divider indigo lighten-5"></li>
+  <li><a href="dropmontecarlo.html">+ Monte Carlo</a></li>
+</ul>
+  
+  <nav class="navbar-fixed-top" id="outranav" >
+      
+    <div class="nav-wrapper">
+   <a href="index.html" class="brand-logo show-on-medium-and-down hide-on-med-and-up"> <img src="imagens/logo_atualizado.png" class="" style="width: 65%; height:85%; "></a>
+      <a href="index.html" class="brand-logo hide-on-med-and-down"> <img src="imagens/logo_atualizado.png" class="responsive-img" style="width: 20%; height:40%; "></a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse right"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+         <li><a href="paraipaba.html" class="hvr-underline-from-center" id="">Paraipaba-CE <i class="material-icons right
+          ">local_see</i></a></li>
+        <li><a href="pacotes.html" class="hvr-underline-from-center" id="">Pacotes <i class="material-icons right">date_range</i></a></li>
+        <li><a href="imagens.html" class="hvr-underline-from-center" id="">Imagens <i class="material-icons right
+          ">collections</i></a></li>
+        <li><a href="contato.html" class="hvr-underline-from-center" id="">Contato <i class="material-icons right
+          ">border_color</i></a></li>
+        <li><a class="dropdown-button hvr-underline-from-center" href="#!" data-activates="dropdown1">Conheça a pousada<i class="material-icons right">arrow_drop_down</i></a></li>
+
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+
+       <li><a href="paraipaba.html">Paraipaba-CE <i class="material-icons right corico">local_see</i></a></li>
+         <li class="divider" style="background-color:#003171; "></li>
+        <li><a href="pacotes.html">Pacotes <i class="material-icons right corico">date_range</i></a></li>
+         <li class="divider" style="background-color:#003171; "></li>
+         <li><a href="imagens.html">Imagens <i class="material-icons right corico">collections</i></a></li>
+         <li class="divider" style="background-color:#003171; "></li>
+        <li><a href="contato.html">Contato <i class="material-icons right corico">border_color</i></a></li>
+        <li class="divider" style="background-color:#003171; "></li>
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Conheça<br>a Pousada <i class="material-icons right corico ">arrow_drop_down</i></a></li>
+        
+      </ul>
+    </div>
+    
+  </nav>
+  </div>
+ 
+
+
+<!-- navbar -->
+
+
+
+<div class="container" style="background-color: transparent; margin-top: 90px;">
+  
+
+
+<div class="w3-center">     
+ <div class="col s12 m6">
+    
+
+  <br/><br/><br/> 
+
+  <h5 class="subtitulo">Reservar</h5>
+   <h1>Preencha com os dados iniciais:</h1>
+  
+    
+
+
+    </div>
+
+  </div>
+ <br/> <br/> <br/> <br/>
+
+
+  <div class="row">
+<div class="col m4 s12"></div>
+
+  <div col m2 s12>
+
+    
+
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col m6 s12 animated fadeInLeft">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="nomecliente" type="text" class="validate">
+          <label for="icon_prefix" style="color: orange;">Responsável pela reserva:</label>
+        </div>
+        <div class="input-field col m6 s12 animated fadeInRight">
+          <i class="material-icons prefix">email</i>
+          <input id="idemail" type="text" class="validate" >
+          <label for="icon_telephone" style="color: orange;">Email cadastrado:</label>
+        </div>
+      </div>
+     
+ <div class="row">
+        <div class="input-field col m6 s12 animated fadeInLeft">
+          <i class="material-icons prefix">insert_invitation</i>
+            <label for="icon_telephone" style="color: orange;">Check-in:</label>
+            <input type="text" class="datepicker" id="identrada">
+        </div>
+        <div class="input-field col m6 s12 animated fadeInRight">
+         <i class="material-icons prefix">insert_invitation</i>
+            <label for="icon_telephone" style="color: orange;">Check-out:</label>
+            <input type="text" class="datepicker" id="idsaida">
+        </div>
+      </div>
+
+       <div class="row">
+        <div class="input-field col m6 s12 animated fadeInLeft">
+          <i class="material-icons prefix">settings_phone</i>
+          <input id="idformapagamento" type="text" class="validate" >
+          <label for="icon_prefix" style="color: orange;">Telefone:</label>
+        </div>
+         <div class="input-field col m6 s12 animated fadeInRight">
+    <select id="idpacote">
+      <option value="" disabled selected>selecione o pacote desejado</option>
+      <option value="1" style="color: orange;">Máster</option>
+      <option value="2" style="color: orange;">Nóbre</option>
+      <option value="3" style="color: orange;">Plus</option>
+      <option value="4" style="color: orange;">Lua de Mel</option>
+      <option value="5" style="color: orange;">Férias</option>
+      <option value="6" style="color: orange;">Família</option>
+      <option value="7" style="color: orange;">Viagem</option>
+    </select>
+
+    <label style="color: orange;">Pacotes:</label>
+  </div>
+      </div>
+
+    </form>
+<div class="w3-center"> 
+<button class="waves-effect waves-light btn animated fadeInUp" id="cadastro">Reservar</button>
+  </div>
+  </div>
+
+
+
+ </div>
+
+ <div class="col m4 s12"></div>
+</div>

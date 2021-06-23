@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+html{
+    height: 100%;
+    
+}
+body{
+    height: 100%;
+    background-image: url("../img/carr1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Slabo 27px', serif;
+}
+
+.slogan{
+    
+    padding-bottom: 5%;
+    padding-top:4.5% ;
+    padding-left: 18.4% ;
+    background-color: black; 
+    opacity: 0.8;
+    border-radius: 8px;
+}
+.slogan p {
+    font-family: 'Lobster', cursive; 
+    color: blanchedalmond;
+    font-size: 380%;
+    opacity: none !important; 
+
+}
+.containerbranco{
+   padding-bottom: 6%;
+   background-color: #fcefde;
+   padding-top: 2%;
+}
+
+.containerbranco h1 {
+    font-size: 360%;
+    text-align: center;
+    color: #1c180e;
+    font-weight: bold;
+}
+
+.firstletter{
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.containerbranco p{
+    text-align: justify;
+    text-indent:2em;
+    font-size: 140%;
+    line-height:225%;
+
+}
+
+.containerescuro{
+    background-color: #332d1e;
+    padding-bottom: 6%;
+    padding-top: 2%;
+ }
+
+.containerescuro h1 {
+    font-size: 360%;
+    text-align: center;
+    color: #fcefde;
+    font-weight: bold;
+}
+
+/* --------------RODAPÉ----------------- */
+.contatos li{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 110%;
+}
+.footer{
+    background-color: #241f14;
+    height: 48px;
+    font-size: 90%;
+    color: white;
+    height: 9%;
+    text-align: center;
+    padding-top: 0.5%;
+
+}
+/* --------------RODAPÉ----------------- */

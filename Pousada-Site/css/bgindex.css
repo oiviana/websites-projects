@@ -1,0 +1,11 @@
+body{
+
+	background:url("bg/david-di-veroli-3558.jpg")
+	no-repeat 
+center fixed;
+
+background-size:cover;
+}
+
+.container{ transition:  1s !important;}
+.container-fluid{ transition:1s !important;}

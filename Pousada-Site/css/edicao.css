@@ -1,0 +1,447 @@
+*{
+
+
+	margin:0; 
+	padding:0;
+}
+
+/*modal e formulario*/
+
+label{
+
+  font-size:20px !important;
+  color:#003171; 
+}
+
+.btn {
+
+  background-color: #f57c00;
+  font-size: 20px !important;
+  color: #fff;
+  
+} 
+
+.btn:hover{
+
+  background-color:#003171;
+  color:#ff8f00;
+}
+
+/*modal e formulario*/
+
+
+
+
+
+
+
+/*navbar*/
+
+nav{
+	background-color: transparent !important;
+	border-color: transparent !important;
+	box-shadow: none;
+}
+
+
+.nav-wrapper li a:hover {
+      color: #fffde7 !important;
+      background-color: transparent !important;
+      text-decoration: none !important;
+
+  }
+  .side-nav{
+
+    background-color: #ffb74d !important;
+    
+  }
+
+
+
+
+#outranav{
+
+  background-color: #ffb74d  !important;
+   box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+.corico{
+  color: #003171 !important;
+}
+
+a{
+  font-size: 25px !important;
+  padding-left: 35px !important;
+  padding-right: 35px !important;
+  color: #003171 !important;
+} 
+
+.navdesce{
+
+  
+}
+/*navbar*/
+
+
+
+
+
+
+
+
+body {
+
+font-family: 'Patrick Hand SC', cursive;
+
+
+
+
+
+
+} 
+
+
+/*botao home*/
+
+.w3-center{
+
+  text-align: center;
+}
+
+
+#btnhome{
+
+  background-color: #f57c00;
+  border-color: #fff;
+  font-size: 30px !important;
+  color: #fff;
+  border-radius: 10px;
+} 
+
+#btnhome:hover{
+
+  background-color:#003171;
+  color:#ff8f00;
+}
+
+/*botao home*/
+
+
+
+
+
+/*tipografia*/
+h1{
+
+  
+  font-weight:bold; 
+  font-size: 52px;
+  color: #ff8f00;
+  }
+ 
+
+ h2{
+
+  font-size:30px;
+  color: #fffde7 ; 
+  
+
+ }
+
+
+ h3{
+
+  font-size:30px;
+  color:#241E19;; 
+  
+
+
+ }
+
+
+ h6{
+
+  font-family: 'Strait', sans-serif;
+
+  font-size: 85px;
+  font-weight: bold;
+  color: #ff8f00;
+    text-align: center;
+}
+/*tipografia*/
+
+/*classesH5*/
+
+.subtitulo{
+
+
+  font-size: 30px;
+  color: #241E19;
+  opacity: 700px;
+  font-style: italic;
+}
+
+.turistico{
+
+
+  font-weight:bold; 
+  font-size: 40px;
+  font-style: italic;
+  color: #ff8f00;
+
+}
+
+
+
+.pontoturistico{
+
+  text-align: justify;
+}
+
+.titulomais{
+
+  font-size: 38px;
+  color: #ff8f00;
+}
+
+
+
+.tituloslider{
+
+   font-family: 'Strait', sans-serif !important; 
+   font-weight:bold; 
+  font-size: 50px !important; 
+  color: #003171 !important;
+
+}
+
+
+.contentslider{
+   font-family: 'Strait', sans-serif !important; 
+   font-weight:bold; 
+  font-size: 30px !important;
+  color: #fffde7;
+}
+
+
+/*classesH5*/
+
+ 
+ 
+/*cards da index*/
+.zoom{
+
+  overflow: hidden;
+}
+
+.zoom img{
+
+  max-width:100%;
+  -moz-transition: all 0.6s;
+  -webkit-transition:all 0.6s;
+  transition: all 0.6s;
+
+}
+
+.zoom:hover img{
+
+  -moz-transform: scale(1.1);
+  -webkit-transform:scale(1.1);
+  transform: scale(1.1);
+}
+
+.card-content{
+
+  background-color:#ffb74d; 
+  color:#fff;
+  font-size:22px; 
+}
+/*cards da index*/
+
+
+.parallax-container {
+      height: 700px;
+      z-index:1; 
+    }
+
+
+/*fotosparaipaba-CE*/
+.imgparaipaba{
+
+width:719px !important ;
+height:457px !important; 
+
+}
+/*fotosparaipaba-CE*/
+
+
+.carousel-item{
+
+  text-align: center;
+}
+
+
+/*footer*/
+
+
+.page-footer{
+
+  background-color:#ffb74d ;
+}
+
+
+.lado{
+
+
+display: flex;
+
+
+
+}
+
+.icone{
+
+  width:30px;
+  height:30px;
+  float: left; 
+}
+
+.iconevr{
+
+width:40px;
+height:40px;
+
+}
+
+.sloganfooter{
+
+  font-family: 'Strait', sans-serif !important; 
+  font-size: 30px !important; 
+  color: #003171 !important;
+}
+
+
+
+#btnfooter{
+
+  background-color: #003171;
+  color: #ffb74d !important;
+  border-radius: 50% !important;
+  text-decoration: none;
+} 
+
+#btnfooter:hover{
+
+  background-color:#fffde7;
+  color:#003171 !important;
+}
+
+
+/*footer*/
+
+
+/*galeria*/
+.semhiper{
+
+
+  text-decoration: none !important;
+
+}
+.semhipermobile{
+
+
+  text-decoration: none !important;
+  font-size: 14px !important;
+}
+/*galeria*/
+
+
+
+/*formreserva*/
+
+
+
+
+.input-field input[type=text]:focus {
+     border-bottom: 1px solid #003171 !important ;
+     box-shadow: 0 1px 0 0 #003171 !important;
+   }
+
+
+.input-field input[type=materialize-textarea]:focus {
+     border-bottom: 1px solid #003171 !important ;
+     box-shadow: 0 1px 0 0 #003171 !important;
+   }
+.input-field input[type=tel]:focus {
+     border-bottom: 1px solid #003171 !important ;
+     box-shadow: 0 1px 0 0 #003171 !important;
+   }
+
+ .input-field .prefix.active {
+     color: #003171;
+   }
+
+ .input-field label {
+     color: #003171;
+   }
+
+
+
+
+
+
+#btnreserva{
+
+  background-color: #ffb74d;
+  color: #003171 !important;
+  border-radius: 10px !important;
+  text-decoration: none;
+} 
+
+#btnreserva:hover{
+
+  background-color:#003171;
+  color:#ffb74d !important;
+}
+
+
+/*formreserva*/   
+
+
+/*gastronomia*/
+
+.collapsible-header{
+
+background-color: #ffb74d;
+font-size: 22px;
+color:#003171; 
+
+}
+
+
+
+.card-reveal{
+
+  background-color:#ffb74d !important; 
+}
+
+
+.titugastro{
+
+  font-size: 22px;
+
+  color:#003171 !important; 
+}
+
+.contentgastro{
+
+  font-size: 20px;
+
+  color:#003171 !important; 
+}
+
+
+
+/*gastronomia*/

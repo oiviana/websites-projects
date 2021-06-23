@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+	<title >PMC-Paraipaba </title>
+  <link rel="shortcut icon" type="image/x-icon" href="imagens/favlogo.ico">
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/materialize.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+  <link rel="stylesheet"  href="css/edicao.css">
+  <link rel="stylesheet"  href="css/bgindex.css">
+  <link rel="stylesheet"  href="css/animate.css">
+  <link rel="stylesheet"  href="css/hover.css">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Strait" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Sriracha" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Tenor+Sans" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/java.js"></script>
+    <script src="js/nav.js"></script>
+
+</head>
+
+
+
+
+
+
+
+
+
+<body>
+
+
+ <!-- modal -->
+   
+
+  <div id="teste" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h6 style="font-size:40px; color: #003171;font-family: 'Patrick Hand SC', cursive;">Preencha com os seguintes dados:</h6>
+      <p>
+         <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <input type="email" id="nome" type="text" class="validate">
+          <label for="nome">Nome completo:</label>
+        </div>
+
+        <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">CPF:</label>
+        </div>
+      </div>
+        
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input type="email" id="email" type="text" class="validate">
+          <label for="email">Email:</label>
+        </div>
+      </div>
+     <!--  <div class="row">
+        <div class="input-field col s12">
+          <input id="senha" type="password" class="validate">
+          <label for="senha">Senha:</label>
+        </div>
+      </div> -->
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Endereço:</label>
+        </div>
+      </div>
+      
+    </form>
+  </div>
+      </p>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class=" btn modal-action modal-close  waves-effect waves-orange ">Sair</button>
+       <button type="button" class="btn btn-primary  waves-effect waves-orange"> Cadastrar</button>
+    </div>
+  </div>
+
+<!-- modal -->
+
+
+<!-- navbar -->
+ <div>
+    <ul id="dropdown1" class="dropdown-content">
+ 
+  <li><a href="droplocalizacao.html">Localização</a></li>
+  <li><a href="dropatividades.html">Atividades de lazer</a></li>
+  <li><a href="dropgastronomia.html">Gastronomia</a></li>
+  <li class="divider  indigo lighten-5"></li>
+  <li><a href="dropmontecarlo.html">+ Monte Carlo</a></li>
+</ul>
+
+<ul id="dropdown2" class="dropdown-content">
+  
+  <li><a href="droplocalizacao.html">Localização</a></li>
+  <li><a href="dropatividades.html">Atividades de lazer</a></li>
+  <li><a href="dropgastronomia.html">Gastronomia</a></li>
+  <li class="divider indigo lighten-5"></li>
+  <li><a href="dropmontecarlo.html">+ Monte Carlo</a></li>
+</ul>
+  
+  <nav class="navbar-fixed-top" >
+      <div class="container" id="altera">
+    <div class="nav-wrapper ">
+      <a href="index.html" class="brand-logo show-on-medium-and-down hide-on-med-and-up"> <img src="imagens/logo_atualizado.png" class="" style="width: 65%; height:85%; "></a>
+      <a href="index.html" class="brand-logo hide-on-med-and-down"> <img src="imagens/logo_atualizado.png" class="responsive-img" style="width: 20%; height:40%; "></a>
+
+
+
+      <a href="#" data-activates="mobile-demo" class="button-collapse right"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="paraipaba.html" class="hvr-underline-from-center" id="">Paraipaba-CE <i class="material-icons right
+          ">local_see</i></a></li>
+        <li><a href="pacotes.html" class="hvr-underline-from-center" id="">Pacotes <i class="material-icons right">date_range</i></a></li>
+        <li><a href="imagens.html" class="hvr-underline-from-center" id="">Imagens <i class="material-icons right
+          ">collections</i></a></li>
+        <li><a href="contato.html" class="hvr-underline-from-center" id="">Contato <i class="material-icons right
+          ">border_color</i></a></li>
+        <li><a class="dropdown-button hvr-underline-from-center" href="#!" data-activates="dropdown1">Conheça a pousada<i class="material-icons right">arrow_drop_down</i></a></li>
+         
+
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+
+        <li><a href="paraipaba.html">Paraipaba-CE <i class="material-icons right corico">local_see</i></a></li>
+         <li class="divider" style="background-color:#003171; "></li>
+        <li><a href="pacotes.html">Pacotes <i class="material-icons right corico">date_range</i></a></li>
+         <li class="divider" style="background-color:#003171; "></li>
+         <li><a href="imagens.html">Imagens <i class="material-icons right corico">collections</i></a></li>
+         <li class="divider" style="background-color:#003171; "></li>
+        <li><a href="contato.html">Contato <i class="material-icons right corico">border_color</i></a></li>
+        <li class="divider" style="background-color:#003171; "></li>
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Conheça<br>a Pousada <i class="material-icons right corico ">arrow_drop_down</i></a></li>
+        
+      </ul>
+    </div>
+    </div>
+  </nav>
+  </div>
+<!-- navbar -->
+
+
+
+ <div class="container-fluid animated fadeInDown " id="outro" style="background-color: transparent; padding-top:25% ">
+  <div class="row">
+    <div class="col s12">
+
+     <h6> Parai<wbr>paba como você nunca viu antes!</h6> 
+</div>
+</div>
+ </div>
+ <br/><br/><br/><br/><br/>
+       
+
+ <div class="row, w3-center" style="background-color: transparent; ">
+
+    
+   <button data-target="teste" class="btn modal-trigger  waves-effect waves-orange animated fadeInDown" id="btnhome">Cadastrar</button>
+   <br/><br/><br/><br/><br/>
+</div>
+  <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+  
+
+
+
+
+
+
+  <div class="container-fluid" style="background-color:  #fffde7">
+    <div class="container">
+
+    <div class="row" style="text-align: center;">
+
+      <h1> Acodomações que se adaptam ao seu gosto!</h1> <br/>
+
+<h3>A pousada Monte Carlo oferece conforto para relaxar em meio a tudo de mais belo que a natureza oferece.Monte Carlo traz um sistema de acomodações dividio em Master, Nobre e Plus, cada 
+  uma traz atributos de hospitalidade, onde, o cliente pode adicionar mais ao fazer sua reserva, de acordo com seus gostos.
+</h3>
+    
+      
+    </div>
+    
+</div>
+</div>
+
+ <div class="container-fluid" style="background-color: #fffde7">
+
+   <div class="row">
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <div class="zoom">
+              <img src="imagens/acomodacoes/acomodamaster.jpg">
+              </div>
+              <span class="card-title" style="color:#f57c00; font-size:40px;">Acomodação Master</span>
+            </div>
+            <div class="card-content" >
+              <p style="color: #003171"> Acomodação do mais alto nível na pousada, capacidade para 4 pessoas com suíte, sauna, café da manhã no quarto e varanda com vista pro mar inclusos. </p>
+            </div>
+            
+          </div>
+        </div>
+      
+
+
+       
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <div class="zoom">
+              <img src="imagens/acomodacoes/acomodanobre.jpg">
+              </div>
+              <span class="card-title" style="color:#f57c00; font-size:40px;">Acomodação Nobre</span>
+            </div>
+            <div class="card-content">
+              <p style="color: #003171">Uma ótima opção a quem busca conforto para si e sua compania, capacidade para duas pessoas com suite e café da manhã no quarto inclusos. </p>
+            </div>
+            
+          </div>
+        </div>
+
+         <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <div class="zoom">
+              <img src="imagens/acomodacoes/acomodaplus.jpg">
+              </div>
+              <span class="card-title" style="color:#f57c00; font-size:40px;">Acomodação Plus</span>
+            </div>
+            <div class="card-content" >
+              <p style="color: #003171">Acomodação ideal a quem está de passagem, aproveitando a vida de solteiro, está incluso uma suíte.</p><br/>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+
+
+<div class="container-fluid" style="background-color:   #fffde7;"> <br/><br/><br/>
+  <div class="row">  
+    <div class="col s1">
+  </div>
+  <div class="col s12 m10">
+     <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="imagens/sliderhome/toa-heftiba-257406.jpg" class="responsive-img"> <!-- random image -->
+        <div class="caption center-align">
+          <h5 class="tituloslider"> Sinta o melhor do clima tropical</h5>
+           <h5 class="contentslider"> Uma das melhores pousadas nordestinas</h5> 
+        </div>
+      </li>
+      <li>
+        <img src="imagens/sliderhome/paula-borowska-1497.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h1 class="tituloslider">Desfrute da melhor gastronomia cearense</h1>
+           <h2 class="contentslider" >As melhores especiarías e frutos do mar</h2> 
+        </div>
+      </li>
+      <li>
+        <img src="imagens/sliderhome/bg3.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h1 class="tituloslider">Conheça Monte Carlo</h1>
+           <h2 class="contentslider">Desfrute do melhor serviço de hospedagem</h2> 
+        </div>
+      </li>
+      <li>
+        <img src="imagens/sliderhome/epicurrence-64532.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h1 class="tituloslider">Sinta a brisa litorânea</h1>
+           <h2 class="contentslider" >Caminhe de seu quarto até a praia em menos de 5 minutos</h2> 
+        </div>
+      </li>
+    </ul>
+  </div>
+    
+  </div>
+  <div class="col s1">
+    
+  </div>
+
+</div>
+<br/><br/><br/><br/>
+  </div>
+
+   
+    
+   
+
+
+<div class="container-fluid" style="background-color:#fffde7; ">
+ 
+ <div class="row">
+  <br/>
+    <div class=" col s12 m4"> 
+      <div class="carousel carousel-slider center" data-indicators="true" >
+    
+    <div class="carousel-item   orange lighten-2 white-text" href="#one!">
+      <br/>
+           <i class="large material-icons ">account_box</i>
+      <p class="white-text" style=" font-size:25px ">João da Silva, 28 anos</p>
+      <p class="white-text" style=" font-size:19px">A hospitalidade é impressionante, estava apenas de passagem e senti vontade de ficar eternamente!</p>
+    </div>
+    <div class="carousel-item   orange lighten-2 white-text" href="#two!">
+      <i class="large material-icons ">account_box</i>
+      <p class="white-text" style=" font-size:25px ">Paulo Guina, 40 anos</p>
+      <p class="white-text" style=" font-size:19px">Excelente localização,atentdimento ótimo e funcionários muito educados.</p>
+    </div>
+    <div class="carousel-item  orange lighten-2 white-text" href="#three!">
+      <i class="large material-icons ">account_box</i>
+      <p class="white-text" style=" font-size:25px ">Marina Silva, 30 anos</p>
+      <p class="white-text" style=" font-size:19px">Viemos com nosso bebê e havia um berço no quarto a nossa espera, me senti muito acolhida.</p>
+    </div>
+    <div class="carousel-item  orange lighten-2 white-text" href="#four!">
+    <i class="large material-icons ">account_box</i>
+    <p class="white-text" style=" font-size:25px ">Lucas Sácci, 19 anos</p>
+      <p class="white-text" style=" font-size:19px">A piscina é linda, sem falar do restaurante e a gastrônomia local, amei também as duchas.</p>
+    </div>
+  </div>
+</div>
+<div class="col s12 m4">
+  <h1> A cada dia, mais um cliente satisfeito!</h1>
+  <h3 style="text-align: justify;">Confira alguns depoimentos de clientes que tiveram sua experiência de hospedagem em Monte Carlo</h3>
+  
+</div>
+<div class="col m4"></div>
+  </div>
+ </div> 
+  
+
+
+ 
+ <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+              <a href="#!" class="brand-logo"> <img src="imagens/logo_atualizado.png" class="responsive-img" style="width: 20%; height:40%; "></a>
+                <p class="sloganfooter" >Paraipaba como você nunca viu antes!</p>
+                <a class="waves-effect waves-light btn-large" id="btnfooter" href="reservar.html">Reservar</a>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                
+                <ul>
+                  
+                 
+                  <li><a  href="#!" style="text-decoration: none;">R. Estrela do Mar-Nº 25  <i class="material-icons left corico  small hide-on-med-and-down" style="padding-right: 1px;">room</i> </a></li>
+                  <li> <i class="material-icons left corico small hide-on-med-and-down" style="padding-right: 1px;">call</i><a  href="#!" style="text-decoration: none;">(85) 4403-8993   </a></li>
+                  <li class="hide-on-med-and-down"> <i class="material-icons left corico small" style="padding-right: 1px;">email</i><a  href="#!" style="text-decoration: none;">MC_Paraipaba@outlook.com  </a></li>
+                  <li class="hide-on-med-and-up show-on-medium-and-down"><a  href="#!" style="text-decoration: none; font-size:22px !important; ">MC_Paraipaba@outlook.com  </a></li>
+               
+
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container" >
+                
+  <ul class="lado">
+
+    <li><a href="https://www.facebook.com/Pousada-Monte-Carlo-141603819824078/" target="_blank"><img src="imagens/icons/facebook.png" class="hvr-grow icone responsive-img "></a></li>
+    <li><a href="https://www.instagram.com/pousadamontecarlo/" target="_blank"><img src="imagens/icons/instagram-social-outlined-logo.png" class="hvr-grow icone responsive-img"></a></li>
+    <li><a href="https://twitter.com/PousadaMonte" target="_blank"><img src="imagens/icons/twitter.png" class="hvr-grow icone responsive-img"></a></li>
+    <li><a href="https://plus.google.com/u/0/101629703450129806822" target="_blank"><img src="imagens/icons/google-plus-logo.png" class="hvr-grow icone responsive-img"></a></li>
+  </ul>
+
+              </div>
+          
+            <a class="grey-text text-lighten-4 right" href="https://www.facebook.com/VR-Consultoria-Inform%C3%A1tica-2106990969523672/?modal=admin_todo_tour" target="_blank"> <img src="imagens/icons/logovr.png" class="icone responsive-img"></a>
+         
+        </div>
+      </div>
+        </footer>
+
+ 
+
+   
+
+  
+
+</body>
+</html>

@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="imagens/favlogo.ico">
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/materialize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/edicao.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/hover.css">
+    <link rel="stylesheet" href="css/bgresto.css">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Strait" rel="stylesheet">
+
+    <!-- <link href="https://fonts.googleapis.com/css?family=Sriracha" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Tenor+Sans" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/java.js"></script>
+
+
+    <script>
+        $(document).ready(function() {
+
+            $('#fade1').css({
+                'opacity': "0"
+
+            });
+
+
+            $('#fade2').css({
+                'opacity': "0"
+
+            });
+
+            $('#fade3').css({
+                'opacity': "0"
+
+            });
+
+            $('#fade4').css({
+                'opacity': "0"
+
+            });
+
+            $('#fade5').css({
+                'opacity': "0"
+
+            });
+
+
+
+            $(window).scroll(function() {
+
+                var scroll = $(window).scrollTop();
+
+
+
+                if (scroll >= 950) {
+
+                    $('#fade1').css({
+                        'opacity': "1"
+
+                    }).addClass('animated fadeInRight');
+
+                }
+
+                if (scroll >= 1150) {
+
+                    $('#fade2').css({
+                        'opacity': "1"
+
+                    }).addClass('animated fadeInLeft');
+                }
+
+                if (scroll >= 1550) {
+
+                    $('#fade3').css({
+                        'opacity': "1"
+
+                    }).addClass('animated fadeInRight');
+
+                }
+
+                if (scroll >= 2050) {
+
+                    $('#fade4').css({
+                        'opacity': "1"
+
+                    }).addClass('animated fadeInLeft');
+
+                }
+
+                if (scroll >= 2550) {
+
+                    $('#fade5').css({
+                        'opacity': "1"
+
+                    }).addClass('animated fadeInRight');
+
+                }
+
+
+            });
+
+        });
+
+    </script>
+
+
+
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <div>
+        <ul id="dropdown1" class="dropdown-content">
+
+            <li><a href="droplocalizacao.html">Localização</a></li>
+            <li><a href="dropatividades.html">Atividades de lazer</a></li>
+            <li><a href="dropgastronomia.html">Gastronomia</a></li>
+            <li class="divider  indigo lighten-5"></li>
+            <li><a href="dropmontecarlo.html">+ Monte Carlo</a></li>
+        </ul>
+
+        <ul id="dropdown2" class="dropdown-content">
+
+            <li><a href="droplocalizacao.html">Localização</a></li>
+            <li><a href="dropatividades.html">Atividades de lazer</a></li>
+            <li><a href="dropgastronomia.html">Gastronomia</a></li>
+            <li class="divider indigo lighten-5"></li>
+            <li><a href="dropmontecarlo.html">+ Monte Carlo</a></li>
+        </ul>
+
+        <nav class="navbar-fixed-top" id="outranav">
+
+            <div class="nav-wrapper">
+                <a href="index.html" class="brand-logo show-on-medium-and-down hide-on-med-and-up"> <img src="imagens/logo_atualizado.png" class="" style="width: 65%; height:85%; "></a>
+                <a href="index.html" class="brand-logo hide-on-med-and-down"> <img src="imagens/logo_atualizado.png" class="responsive-img" style="width: 20%; height:40%; "></a>
+
+
+
+                <a href="#" data-activates="mobile-demo" class="button-collapse right"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="paraipaba.html" class="hvr-underline-from-center" id="">Paraipaba-CE <i class="material-icons right
+          ">local_see</i></a></li>
+                    <li><a href="pacotes.html" class="hvr-underline-from-center" id="">Pacotes <i class="material-icons right">date_range</i></a></li>
+                    <li><a href="imagens.html" class="hvr-underline-from-center" id="">Imagens <i class="material-icons right
+          ">collections</i></a></li>
+                    <li><a href="contato.html" class="hvr-underline-from-center" id="">Contato <i class="material-icons right
+          ">border_color</i></a></li>
+                    <li><a class="dropdown-button hvr-underline-from-center" href="#!" data-activates="dropdown1">Conheça a pousada<i class="material-icons right">arrow_drop_down</i></a></li>
+
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+
+                    <li><a href="paraipaba.html">Paraipaba-CE <i class="material-icons right corico">local_see</i></a></li>
+                    <li class="divider" style="background-color:#003171; "></li>
+                    <li><a href="pacotes.html">Pacotes <i class="material-icons right corico">date_range</i></a></li>
+                    <li class="divider" style="background-color:#003171; "></li>
+                    <li><a href="imagens.html">Imagens <i class="material-icons right corico">collections</i></a></li>
+                    <li class="divider" style="background-color:#003171; "></li>
+                    <li><a href="contato.html">Contato <i class="material-icons right corico">border_color</i></a></li>
+                    <li class="divider" style="background-color:#003171; "></li>
+                    <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Conheça<br>a Pousada <i class="material-icons right corico ">arrow_drop_down</i></a></li>
+
+                </ul>
+            </div>
+
+        </nav>
+    </div>
+
+
+
+    <!-- navbar -->
+
+
+
+    <div class="container-fluid" style="background-color: #fffde7;  ">
+
+        <div class="container">
+            <div class="w3-center">
+                <div class="col s12 m6">
+
+
+                    <br/><br/><br/> <br/><br/>
+
+                    <h5 class="subtitulo">Paraipaba-ce</h5>
+                    <h1>Conheça nossa cidade!</h1>
+
+                    <h3>
+                        <p>O belo município de antiga abitação indígena, antes, chamava-se Passagem do Tigre até a criação de um decreto que mudou a denominação para Paraipaba.</p>
+                        <p>Localizada no Estado do Ceará, a cidade se estende por 300,9 km² e conta com 30.041 habitantes de acordo com o último censo. </p>
+                    </h3>
+
+
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax"><img src="css/bg/anders-wideskott-57598.jpg" class="responsive-img "></div>
+
+    </div>
+
+    <div class="container-fluid" style="background-color: #fffde7;">
+
+        <div class="container">
+            <div class="w3-center">
+                <div class="col s12 m6">
+
+
+
+
+
+                    <h1>O que visitar?</h1>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="background-color: #fffde7;">
+        <br/><br/><br/><br/>
+
+
+        <div class="container-fluid" id="fade1">
+            <div class="row">
+
+
+                <div class="col s12 m5">
+                    <h5 class="turistico">Praia da Lagoinha </h5>
+
+                    <h5 class="pontoturistico">A mais próxima da pousada e também mais bela praia da região, apesar do grande movimento, a praia sempre se mantém limpa e conservada. A Praia da Lagoinha ramifica-se em outras praias ao longo de todo o litoral da cidade, a praia possui também diversas atividades de entretenimento e lazer em parceria com a pousada.</h5>
+
+                </div>
+
+
+                <div class="col s12 m7">
+                    <img src="imagens/pontosturisticos/lagoinha.jpg" class="imgparaipaba responsive-img hide-on-med-and-down " id="img1 ">
+                    <img src="imagens/pontosturisticos/lagoinha.jpg" class="responsive-img hide-on-med-and-up show-on-medium-and-down ">
+                </div>
+
+            </div>
+        </div>
+
+        <br/><br/><br/>
+
+
+
+
+        <div class="container-fluid" id="fade2">
+            <div class="row">
+
+                <div class="col s12 m7">
+                    <img src="imagens/pontosturisticos/mirante.jpg" class=" imgparaipaba responsive-img hide-on-med-and-down " id="img2">
+                    <img src="imagens/pontosturisticos/mirante.jpg" class="responsive-img hide-on-med-and-up show-on-medium-and-down ">
+                </div>
+
+
+                <div class="col s12 m5">
+                    <h5 class="turistico">Mirante </h5>
+
+                    <h5 class="pontoturistico">Encontra-se ao final da trilha do Morro do Carequinha, próximo às Dunas. Sua vista abrange um belo horizonte da cidade e do litoral.</h5>
+
+                </div>
+
+
+
+
+
+
+
+            </div>
+        </div>
+
+        <br/><br/><br/>
+
+
+
+        <div class="container-fluid" id="fade3">
+            <div class="row">
+
+
+                <div class="col s12 m5">
+                    <h5 class="turistico">Trilha Lagoinha-Lagoa da Almécegas </h5>
+
+                    <h5 class="pontoturistico">Trilha por entres as dunas que liga a Praia da Lagoinha à Lagoa das Almecegas. Durante o trajeto você pode desfrutar de toda a diversidade da flora local.</h5>
+
+                </div>
+
+
+                <div class="col s12 m7">
+                    <img src="imagens/pontosturisticos/trilha.jpg" class=" imgparaipaba responsive-img hide-on-med-and-down " id="img3">
+
+                    <img src="imagens/pontosturisticos/trilha.jpg" class="responsive-img hide-on-med-and-up show-on-medium-and-down ">
+                </div>
+
+            </div>
+        </div>
+        <br/><br/><br/>
+
+
+
+        <div class="container-fluid" id="fade4">
+
+            <div class="row">
+
+                <div class="col s12 m7">
+                    <img src="imagens/pontosturisticos/almacegas.jpg" class="  imgparaipaba responsive-img hide-on-med-and-down" id="img4">
+                    <img src="imagens/pontosturisticos/almacegas.jpg" class="responsive-img hide-on-med-and-up show-on-medium-and-down ">
+                </div>
+
+
+                <div class="col s12 m5">
+                    <h5 class="turistico">Lagoa das Almécegas </h5>
+
+                    <h5 class="pontoturistico">Fica na comunidade das Pedrinhas, na divisa dos municípios de Paraipaba e Trairi. Na lagoa estão presentes atividades como caiaque, jetsky entre outras.</h5>
+
+                </div>
+
+
+
+
+
+
+
+            </div>
+        </div>
+
+        <br/><br/><br/>
+
+        <div class="container-fluid" id="fade5">
+            <div class="row">
+
+
+                <div class="col s12 m5">
+                    <h5 class="turistico">Dunas de areia </h5>
+
+                    <h5 class="pontoturistico">As dunas de areia oferecem um belo contraste aos tons de verde e marrom que norteiam a paisagem desértica do local. Os cactos, as árvores fofoti ou divi divi, como são mais conhecidas no Brasil, intensificam ainda mais a beleza do local. Não deixe de aproveitar os passeios feitos nas Dunas.</h5>
+
+                </div>
+
+
+                <div class="col s12 m7">
+                    <img src="imagens/pontosturisticos/dunas.jpg" class=" imgparaipaba responsive-img hide-on-med-and-down " id="img5">
+                    <img src="imagens/pontosturisticos/dunas.jpg" class="responsive-img hide-on-med-and-up show-on-medium-and-down ">
+                </div>
+
+            </div>
+            <br/><br/><br/>
+
+        </div>
+    </div>
+
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <a href="#!" class="brand-logo"> <img src="imagens/logo_atualizado.png" class="responsive-img" style="width: 20%; height:40%; "></a>
+                    <p class="sloganfooter">Paraipaba como você nunca viu antes!</p>
+                    <a class="waves-effect waves-light btn-large" id="btnfooter" href="reservar.html">Reservar</a>
+                </div>
+                <div class="col l4 offset-l2 s12">
+
+                    <ul>
+
+
+                        <li><a href="#!" style="text-decoration: none;">R. Estrela do Mar-Nº 25  <i class="material-icons left corico small hide-on-med-and-down" style="padding-right: 1px;">room</i> </a></li>
+                        <li> <i class="material-icons left corico small hide-on-med-and-down" style="padding-right: 1px;">call</i><a href="#!" style="text-decoration: none;">(85) 4403-8993   </a></li>
+                        <li class="hide-on-med-and-down"> <i class="material-icons left corico small" style="padding-right: 1px;">email</i><a href="#!" style="text-decoration: none;">MC_Paraipaba@outlook.com  </a></li>
+                        <li class="hide-on-med-and-up show-on-medium-and-down"><a href="#!" style="text-decoration: none; font-size:22px !important; ">MC_Paraipaba@outlook.com  </a></li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+
+                <ul class="lado">
+
+                    <li>
+                        <a href="https://www.facebook.com/Pousada-Monte-Carlo-141603819824078/" target="_blank"><img src="imagens/icons/facebook.png" class="hvr-grow icone responsive-img "></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/pousadamontecarlo/" target="_blank"><img src="imagens/icons/instagram-social-outlined-logo.png" class="hvr-grow icone responsive-img"></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/PousadaMonte" target="_blank"><img src="imagens/icons/twitter.png" class="hvr-grow icone responsive-img"></a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/u/0/101629703450129806822" target="_blank"><img src="imagens/icons/google-plus-logo.png" class="hvr-grow icone responsive-img"></a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <a class="grey-text text-lighten-4 right" href="https://www.facebook.com/VR-Consultoria-Inform%C3%A1tica-2106990969523672/?modal=admin_todo_tour" target="_blank"> <img src="imagens/icons/logovr.png" class="icone responsive-img"></a>
+
+        </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
